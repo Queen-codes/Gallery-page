@@ -52,5 +52,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [(https://gallerypage23.netlify.app)]
-- Twitter ([https://twitter.com/Queen_Islamiat)]
+- Website [GalleryPage](https://gallerypage23.netlify.app)
+- GitHub [@Queen-codes](https://github.com/Queen-codes)
+- Twitter [@Queen_Islamiat](https://twitter.com/Queen_Islamiat)
+
