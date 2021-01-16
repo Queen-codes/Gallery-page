@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+.profile-details {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.profile-details img {
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.profile-details h2 {
+  color: #4e5150;
+  /*
+  font-weight: 600; */
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.profile-details p {
+  color: #a9a9a9;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+}
+
+.data1 {
+  box-sizing: border-box;
+  width: 78px;
+  height: 52px;
+  background-color: #e5e5e5;
+  border-radius: 0.75rem;
+  color: #4e5150;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+}
+
+.profile-data {
+  /*
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.posts {
+  position: relative;
+  top: 30%;
+  right: 42%;
+}
+
+span {
+  color: #bdbdbd;
+}
+/*
+.gallery img {
+  width: 75%;
+} */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.gallery img {
+  border-radius: 0.75rem;
+}
+.item-a {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.item-b {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+.item-c {
+  grid-column: 1 / 3;
+  grid-row: 2;
+}
+.item-d {
+  grid-column: 3 / 4;
+  grid-row: 2 / 5;
+}
+.item-f {
+  grid-column: 1;
+  grid-row: 3 / 4;
+}
+
+.item-e {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.attribution {
+  text-align: center;
+  color: #a9a9a9;
+}
+/*
+@media only screen and (min-width: 1000px) {
+  img {
+    width: 70%;
+  }
+  .profile-details img {
+    width: 10%;
+  }
+  .gallery {
+    column-gap: none;
+  }
+} */
+
+@media only screen and (min-width: 1000px) {
+  .profile-details img {
+    width: 10%;
+  }
+  .gallery {
+    margin-left: 13rem;
+    margin-right: 10rem;
+  }
+  .gallery img {
+    width: 100%;
+  }
+  .profile-data {
+    display: flex;
+    /*
+    justify-content: center; */
+    justify-content: space-between;
+    margin-left: 35rem;
+    margin-right: 35rem;
+  }
+  .profile-details h2 {
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+  }
+  .profile-details p {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+  }
+
+  .data1 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+  span {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+  }
+  .posts {
+    right: 40%;
+    top: 10%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .profile-data {
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+  .posts {
+    right: 10%;
+    top: 4%;
+  }
+}
